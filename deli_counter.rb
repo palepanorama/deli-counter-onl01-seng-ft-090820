@@ -1,4 +1,4 @@
-require.pry
+require 'pry'
 
 katz_deli = []
 
