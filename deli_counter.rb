@@ -1,3 +1,5 @@
+require.pry
+
 katz_deli = []
 
 
@@ -6,6 +8,7 @@ def line(katz_deli)
     "The line is currently empty"
   else
     return "The line is currently: "
+    binding.pry
     katz_deli.each_with_index do |name, index|
       return "#{index +1}. #{name}."
     end
