@@ -9,8 +9,9 @@ def line(katz_deli)
     katz_deli.each_with_index(1) |name, index|
     line_array.push("#{index}. #{name}")
     end
-    puts "The line is currently #{line_array.join("")}"
+    puts "The line is currently: #{line_array.join("")}"
   end
+end
 
 
 def take_a_number(katz_deli, name)
