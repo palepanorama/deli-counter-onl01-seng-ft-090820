@@ -28,4 +28,3 @@ end
 
 
 
-puts line(katz_deli)
