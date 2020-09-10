@@ -1,7 +1,7 @@
 katz_deli = []
 
 
-def line(katz_deli)
+def line(katz_deli, index)
   if katz_deli.length == 0  
     "The line is currently empty"
   elsif katz_deli.length >= 1
