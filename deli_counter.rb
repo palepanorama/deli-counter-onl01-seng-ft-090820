@@ -41,3 +41,6 @@ def now_serving(line)
   else
     puts "Currently serving #{line[0]}." 
 end
+
+puts now_serving(katz_deli)
+puts katz_deli
